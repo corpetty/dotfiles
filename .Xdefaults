@@ -1,4 +1,4 @@
-Xft.dpi:        130
+# Xft.dpi:        130
 Xft.antialias:  true
 Xft.hinting:    true
 Xft.rgba:       rgb
@@ -6,7 +6,7 @@ Xft.hintstyle:  hintslight
 
 Xcursor.theme: Vanilla-DMZ
 
-!.imLocale:             pl_PL.ISO-8859-2
+# !.imLocale:             pl_PL.ISO-8859-2
 !*imLocale:             en_GB.UTF-8
 !*geometry:             120x35
 
