@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-source ~/.secret
 
 export DE="xfce"
 export OOO_FORCE_DESKTOP="xfce4"
@@ -15,7 +14,7 @@ which xset && xset s 3600 3600
 # Disable system bell
 xset b off
 # Keyboard layout
-setxkbmap -layout pl
+setxkbmap -layout us
 
 # Start awesome
 exec awesome > ~/.awesome_stdout 2> ~/.awesome_stderr

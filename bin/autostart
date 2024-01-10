@@ -40,9 +40,7 @@ which xset && xset s 3600 3600
 # Disable system bell
 xset b off
 # Keyboard layout
-setxkbmap -layout pl
-# Disable touchpad
-xinput --disable "Elan Touchpad"
+setxkbmap -layout us
 # Turn off Caps Lock
 xkbset nullify lock
 

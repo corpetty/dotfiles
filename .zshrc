@@ -6,10 +6,11 @@ fpath=(
     "${fpath[@]}"
 )
 
-[[ -f ~/.secret ]] && source ~/.secret
+#[[ -f ~/.secret ]] && source ~/.secret
 #[[ -f ~/.ssh-agent.env ]] && source ~/.ssh-agent.env
 #[[ -f ~/.gnupg/gpg-agent-info-lilim ]] && source ~/.gnupg/gpg-agent-info-lilim
 #export GPG_AGENT_INFO
+export GPG_TTY=$(tty)
 
 # Preamble {{{
 autoload colors         # enable colors
