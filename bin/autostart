@@ -54,8 +54,8 @@ run -r xcape -e 'Control_R=Escape'
 
 ####### Programs to run
 run urxvtd -q -f -o
-run nitrogen --restore
-run autorandr --change
+# run nitrogen --restore
+run autorandr --load desktop
 run xbindkeys
 run blueman-applet
 run -r nm-applet
