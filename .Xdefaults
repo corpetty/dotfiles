@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Xft.dpi:        96
+=======
+# Xft.dpi:        130
+>>>>>>> 1f5c3e786dfa8bf0f12298ba734b379cb0a67ca0
 Xft.antialias:  true
 Xft.hinting:    true
 Xft.rgba:       rgb
@@ -7,6 +11,10 @@ URxvt.geometry: 120x35
 
 Xcursor.theme: Vanilla-DMZ
 
+<<<<<<< HEAD
+=======
+# !.imLocale:             pl_PL.ISO-8859-2
+>>>>>>> 1f5c3e786dfa8bf0f12298ba734b379cb0a67ca0
 !*imLocale:             en_GB.UTF-8
 !*geometry:             120x35
 
